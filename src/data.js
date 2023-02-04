@@ -16,21 +16,41 @@ import ChairImg from './assets/img/chair.png';
 import BedImg from './assets/img/bed.png';
 import CupboardImg from './assets/img/cupboard.png';
 import LightingImg from './assets/img/lighting.png';
-import Product1Img from './assets/img/products/product-1.png';
-import Product2Img from './assets/img/products/product-2.png';
-import Product3Img from './assets/img/products/product-3.png';
-import Product4Img from './assets/img/products/product-4.png';
-import Product5Img from './assets/img/products/product-5.png';
-import Product6Img from './assets/img/products/product-6.png';
-import Product7Img from './assets/img/products/product-7.png';
-import Product8Img from './assets/img/products/product-8.png';
-import Product9Img from './assets/img/products/product-9.png';
-import Product10Img from './assets/img/products/product-10.png';
+import Product1Img from './assets/img/products/cable1.jpg';
+import Product2Img from './assets/img/products/cable2.png';
+import Product3Img from './assets/img/products/cable3.jpg';
+import Product4Img from './assets/img/products/cable4.jpg';
+import Product5Img from './assets/img/products/charger2.jpg';
+import Product6Img from './assets/img/products/charger3.jpg';
+import Product7Img from './assets/img/products/cahar7.jpeg';
+import Product8Img from './assets/img/products/cahr5.jpeg';
+import Product9Img from './assets/img/products/char1.jpeg';
+import Product10Img from './assets/img/products/char10.jpeg';
+import Product11Img from './assets/img/products/char11.jpeg';
+import Product12Img from './assets/img/products/char12.jpeg';
+import Product13Img from './assets/img/products/char13.jpeg';
+import Product14Img from './assets/img/products/char14.jpeg';
+import Product15Img from './assets/img/products/char15.jpeg';
+import Product16Img from './assets/img/products/char16.jpeg';
+import Product17Img from './assets/img/products/char17.jpeg';
+import Product18Img from './assets/img/products/char18.jpeg';
+import Product19Img from './assets/img/products/char19.jpeg';
+import Product20Img from './assets/img/products/char2.jpeg';
+import Product21Img from './assets/img/products/char20.jpeg';
+import Product22Img from './assets/img/products/char21.jpeg';
+import Product23Img from './assets/img/products/char22.jpeg';
+import Product24Img from './assets/img/products/char23.jpeg';
+import Product25Img from './assets/img/products/char3.jpeg';
+import Product26Img from './assets/img/products/char4.jpeg';
+import Product27Img from './assets/img/products/char6.jpeg';
+import Product28Img from './assets/img/products/char8.jpeg';
+import Product29Img from './assets/img/products/char9.jpeg';
 import TestimonialImg from './assets/img/testimonial.png';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
 import Avatar4Img from './assets/img/avatar-4.png';
+
 
 export const navigation = [
   {
@@ -52,15 +72,15 @@ export const navigation = [
 ];
 
 export const hero = {
-  title: 'Creative Home Simpify your Furniture',
+  title: 'Madina Power Tech',
   subtitle:
     'Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto',
-  buttonText: 'Shop Now',
+  buttonText: 'Start Now',
 };
 
 export const stats = [
   {
-    value: '7',
+    value: '12',
     text: 'Year Experience',
   },
   {
@@ -69,11 +89,11 @@ export const stats = [
   },
   {
     value: '10k+',
-    text: 'Furniture sold',
+    text:  'Product sold',
   },
   {
     value: '260+',
-    text: 'Variant Furniture',
+    text: 'Variant Product',
   },
 ];
 
