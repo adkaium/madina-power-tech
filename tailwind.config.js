@@ -32,6 +32,8 @@ module.exports = {
       backgroundImage: {
         hero: 'url("/src/assets/img/banner-bg.png")',
         newsletter: 'url("/src/assets/img/newsletter.png")',
+        feature: 'url("/src/assets/img/color-sharp.png")',
+        feature2: 'url("/src/assets/img/color-sharp2.png")'
       },
       dropShadow: {
         primary: '0px 4px 10px rgba(15, 27, 51, 0.05);',

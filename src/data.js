@@ -10,12 +10,14 @@ import {
 } from 'react-icons/io';
 
 // import images
-import Features1Img from './assets/img/features-1.png';
-import Features2Img from './assets/img/features-2.png';
-import ChairImg from './assets/img/chair.png';
-import BedImg from './assets/img/bed.png';
-import CupboardImg from './assets/img/cupboard.png';
-import LightingImg from './assets/img/lighting.png';
+import Features1Img from './assets/img/m1.jpeg';
+import Features2Img from './assets/img/m2.jpeg';
+import Features3Img from './assets/img/m3.jpeg';
+import Features4Img from './assets/img/m4.jpeg';
+// import ChairImg from './assets/img/chair.png';
+// import BedImg from './assets/img/bed.png';
+// import CupboardImg from './assets/img/cupboard.png';
+// import LightingImg from './assets/img/lighting.png';
 import Product1Img from './assets/img/products/cable1.jpg';
 import Product2Img from './assets/img/products/cable2.png';
 import Product3Img from './assets/img/products/cable3.jpg';
@@ -49,7 +51,7 @@ import TestimonialImg from './assets/img/testimonial.png';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
-import Avatar4Img from './assets/img/avatar-4.png';
+// import Avatar4Img from './assets/img/avatar-4.png';
 
 
 export const navigation = [
@@ -123,6 +125,18 @@ export const features = {
     subtitle:
       'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
   },
+  feature3: {
+    image: <Features3Img />,
+    title: 'The Best Furniture Manufacturer of your choice',
+    subtitle:
+      'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+  },
+  feature4: {
+    image: <Features4Img />,
+    title: 'The Best Furniture Manufacturer of your choice',
+    subtitle:
+      'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+  },
 };
 
 export const newInStore = {
@@ -133,19 +147,19 @@ export const newInStore = {
   products: [
     {
       name: 'chair',
-      image: <ChairImg />,
+      image: <Features1Img />,
     },
     {
       name: 'bed',
-      image: <BedImg />,
+      image: <Features2Img />,
     },
     {
       name: 'cupboard',
-      image: <CupboardImg />,
+      image: <Features3Img />,
     },
     {
       name: 'lighting',
-      image: <LightingImg />,
+      image: <Features4Img />,
     },
   ],
 };
@@ -158,70 +172,98 @@ export const products = {
     {
       productList: [
         {
-          image: <Product1Img />,
+          image: <Product11Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ceiling Light',
+          name: 'cable',
           price: 75,
           oldPrice: 82,
         },
         {
-          image: <Product2Img />,
+          image: <Product12Img />,
           icon: <IoMdAddCircle />,
           name: 'Wood Chair',
           price: 50,
           oldPrice: 70,
         },
         {
-          image: <Product3Img />,
+          image: <Product13Img />,
           icon: <IoMdAddCircle />,
           name: 'Papper Cupboard',
           price: 105,
           oldPrice: 120,
         },
         {
-          image: <Product4Img />,
+          image: <Product14Img />,
           icon: <IoMdAddCircle />,
           name: 'Ole Gundorse Spring',
           price: 75,
           oldPrice: 82,
         },
         {
-          image: <Product5Img />,
+          image: <Product15Img />,
           icon: <IoMdAddCircle />,
           name: 'Treos Seroes 911',
           price: 200,
           oldPrice: 210,
         },
         {
-          image: <Product6Img />,
+          image: <Product16Img />,
           icon: <IoMdAddCircle />,
           name: 'Multi bilderman slibber',
           price: 45,
           oldPrice: 50,
         },
         {
-          image: <Product7Img />,
+          image: <Product17Img />,
           icon: <IoMdAddCircle />,
           name: 'XORA corner desk',
           price: 320,
           oldPrice: 325,
         },
         {
-          image: <Product8Img />,
+          image: <Product18Img />,
           icon: <IoMdAddCircle />,
           name: 'Black Forest Series Wood',
           price: 225,
           oldPrice: 240,
         },
         {
-          image: <Product9Img />,
+          image: <Product19Img />,
           icon: <IoMdAddCircle />,
           name: 'Papper Cupboard',
           price: 105,
           oldPrice: 120,
         },
         {
-          image: <Product10Img />,
+          image: <Product20Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product22Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product23Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product24Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product25Img />,
           icon: <IoMdAddCircle />,
           name: 'Ole Gundorse Spring',
           price: 75,
@@ -296,6 +338,41 @@ export const products = {
         },
         {
           image: <Product10Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product21Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product26Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product27Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product28Img />,
+          icon: <IoMdAddCircle />,
+          name: 'Ole Gundorse Spring',
+          price: 75,
+          oldPrice: 82,
+        },
+        {
+          image: <Product29Img />,
           icon: <IoMdAddCircle />,
           name: 'Ole Gundorse Spring',
           price: 75,
