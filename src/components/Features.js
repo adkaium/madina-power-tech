@@ -6,18 +6,18 @@ import { features } from '../data';
 // import { features4 } from '../data';
 const Features = () => {
   // distacur
-  const {title, subtitle, image, buttonText,items} = features
+  const {title, subtitle, image,items} = features
   // const {title, subtitle, image, buttonText} = features2
   // const {title, subtitle, image, buttonText} = features3
   // const {title, subtitle, image, buttonText} = features4
 
   return (
-    <section className='section'>
+    <section className='section' id='about'>
         <div className='container mx-auto'>
           <div className='flex flex-col lg:flex-row lg:gap-x-[100px]'>
             {/* image  */}
             <div className='flex-1 order-1 lg:-order-1 '>
-              <img src={image.type} alt="m1" className='rounded h-[32rem] w-96' />
+              <img src={image.type} alt="m1" className='rounded ' />
             </div>
             {/* text  */}
             <div className='flex-1 flex flex-col justify-end bg-feature2'>

@@ -2,7 +2,7 @@
 import {
   IoLogoYoutube,
   IoLogoFacebook,
-  IoLogoGithub,
+  // IoLogoGithub,
   IoLogoInstagram,
   IoMdAddCircle,
   IoIosCheckmarkCircle,
@@ -10,7 +10,8 @@ import {
 } from 'react-icons/io';
 
 // import images
-import Features1Img from './assets/img/m1.jpeg';
+import Features1Img from './assets/img/vision.jpg';
+import FeturesImg from './assets/img/m1.jpeg';
 import Features2Img from './assets/img/m2.jpeg';
 import Features3Img from './assets/img/m3.jpeg';
 import Features4Img from './assets/img/m4.jpeg';
@@ -47,28 +48,30 @@ import Product26Img from './assets/img/products/char4.jpeg';
 import Product27Img from './assets/img/products/char6.jpeg';
 import Product28Img from './assets/img/products/char8.jpeg';
 import Product29Img from './assets/img/products/char9.jpeg';
-import TestimonialImg from './assets/img/testimonial.png';
+import TestimonialImg from './assets/img/our-team.jpg';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
+// import Features from './components/Features';
 // import Avatar4Img from './assets/img/avatar-4.png';
 
 
 export const navigation = [
+  
   {
-    name: 'home',
+    name: 'Home',
     href: 'home',
   },
   {
-    name: 'about',
+    name: 'About',
     href: 'about',
   },
   {
-    name: 'features',
-    href: 'features',
+    name: 'Product',
+    href: 'product',
   },
   {
-    name: 'contact',
+    name: 'Contact',
     href: 'contact',
   },
 ];
@@ -101,20 +104,20 @@ export const stats = [
 
 export const features = {
   image: <Features1Img />,
-  title: 'We Create your home more aesthetic',
+  title: 'Madina Power Tech.',
   subtitle:
-    'Furniture power is a software as services for multipurpose business management system',
+    'Madina Power Tech. is a Electronics Co. We made Many Electronics Product such as mobile charger , cable, adapter etc in our own factory',
   buttonText: 'Show Now',
   items: [
     {
       icon: <IoIosCheckmarkCircle />,
-      title: 'Valuation Services',
+      title: 'Our Mission',
       subtitle:
         'Sometimes features require a short description.  This can be detailed description',
     },
     {
       icon: <IoIosCheckmarkCircle />,
-      title: 'Development of Furniture Models',
+      title: 'Our Vision',
       subtitle:
         'Sometimes features require a short description.  This can be detailed description',
     },
@@ -140,26 +143,26 @@ export const features = {
 };
 
 export const newInStore = {
-  title: 'New In Store Now',
-  subtitle: 'Get the latest items immediately with promo prices',
+  title: 'Our capabilities',
+  subtitle: 'We have modern technology machineries and skilled workers',
   link: 'Check all',
   icon: <IoIosArrowRoundForward />,
   products: [
     {
-      name: 'chair',
-      image: <Features1Img />,
+      name: 'Cable Machine',
+      image: <FeturesImg />,
     },
     {
-      name: 'bed',
+      name: 'Cable Machine',
       image: <Features2Img />,
     },
     {
-      name: 'cupboard',
-      image: <Features3Img />,
+      name: 'Cable Machine',
+      image: <Features4Img />,
     },
     {
-      name: 'lighting',
-      image: <Features4Img />,
+      name: 'Cable Machine',
+      image: <Features3Img />,
     },
   ],
 };
@@ -174,98 +177,98 @@ export const products = {
         {
           image: <Product11Img />,
           icon: <IoMdAddCircle />,
-          name: 'cable',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product12Img />,
           icon: <IoMdAddCircle />,
-          name: 'Wood Chair',
+          name: 'Super Fast USB Charger',
           price: 50,
           oldPrice: 70,
         },
         {
           image: <Product13Img />,
           icon: <IoMdAddCircle />,
-          name: 'Papper Cupboard',
+          name: 'Super Fast USB Charger',
           price: 105,
           oldPrice: 120,
         },
         {
           image: <Product14Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product15Img />,
           icon: <IoMdAddCircle />,
-          name: 'Treos Seroes 911',
+          name: 'Super Fast USB Charger',
           price: 200,
           oldPrice: 210,
         },
         {
           image: <Product16Img />,
           icon: <IoMdAddCircle />,
-          name: 'Multi bilderman slibber',
+          name: 'Super Fast USB Charger',
           price: 45,
           oldPrice: 50,
         },
         {
           image: <Product17Img />,
           icon: <IoMdAddCircle />,
-          name: 'XORA corner desk',
+          name: 'Super Fast USB Charger',
           price: 320,
           oldPrice: 325,
         },
         {
           image: <Product18Img />,
           icon: <IoMdAddCircle />,
-          name: 'Black Forest Series Wood',
+          name: 'Super Fast USB Charger',
           price: 225,
           oldPrice: 240,
         },
         {
           image: <Product19Img />,
           icon: <IoMdAddCircle />,
-          name: 'Papper Cupboard',
+          name: 'Super Fast USB Charger',
           price: 105,
           oldPrice: 120,
         },
         {
           image: <Product20Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product22Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product23Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product24Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product25Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
@@ -276,105 +279,105 @@ export const products = {
         {
           image: <Product1Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ceiling Light',
+          name: 'Mullti Pin Cable',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product2Img />,
           icon: <IoMdAddCircle />,
-          name: 'Wood Chair',
+          name: 'C-Type Cable',
           price: 50,
           oldPrice: 70,
         },
         {
           image: <Product3Img />,
           icon: <IoMdAddCircle />,
-          name: 'Papper Cupboard',
+          name: 'C-Type Cable',
           price: 105,
           oldPrice: 120,
         },
         {
           image: <Product4Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Cable',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product5Img />,
           icon: <IoMdAddCircle />,
-          name: 'Treos Seroes 911',
+          name: 'Super Fast USB Charger',
           price: 200,
           oldPrice: 210,
         },
         {
           image: <Product6Img />,
           icon: <IoMdAddCircle />,
-          name: 'Multi bilderman slibber',
+          name: 'Super Fast USB Charger',
           price: 45,
           oldPrice: 50,
         },
         {
           image: <Product7Img />,
           icon: <IoMdAddCircle />,
-          name: 'XORA corner desk',
+          name: 'DC Charger',
           price: 320,
           oldPrice: 325,
         },
         {
           image: <Product8Img />,
           icon: <IoMdAddCircle />,
-          name: 'Black Forest Series Wood',
+          name: 'Super Fast USB Charger',
           price: 225,
           oldPrice: 240,
         },
         {
           image: <Product9Img />,
           icon: <IoMdAddCircle />,
-          name: 'Papper Cupboard',
+          name: 'Super Fast USB Charger',
           price: 105,
           oldPrice: 120,
         },
         {
           image: <Product10Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product21Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Cable',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product26Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product27Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'DC Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product28Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
         {
           image: <Product29Img />,
           icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
+          name: 'Super Fast USB Charger',
           price: 75,
           oldPrice: 82,
         },
@@ -384,41 +387,92 @@ export const products = {
 };
 
 export const testimonial = {
-  title: 'What people are saying about us',
+  title: 'Meet Our Team',
   image: <TestimonialImg />,
   persons: [
     {
       avatar: <Avatar1Img />,
-      name: 'Josh Smith',
-      occupation: 'Manager of The New York Times',
-      message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
-    },
+      name: 'MD Masum Parvez',
+      occupation: 'Chairman',
+
+      social: [
+        {
+          icon: <IoLogoYoutube />,
+          href: '#',
+        },
+        {
+          icon: <IoLogoInstagram />,
+          href: '#',
+        },
+        // {
+        //   icon: <IoLogoGithub />,
+        //   href: '#',
+        // },
+        {
+          icon: <IoLogoFacebook />,
+          href: '#',
+        },
+      ]},
     {
       avatar: <Avatar2Img />,
       name: 'Brandi Johns',
-      occupation: 'Manager of The New York Times',
-      message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+      occupation: 'Manager',
+      social: [
+        {
+          icon: <IoLogoYoutube />,
+          href: '#',
+        },
+        {
+          icon: <IoLogoInstagram />,
+          href: '#',
+        },
+        // {
+        //   icon: <IoLogoGithub />,
+        //   href: '#',
+        // },
+        {
+          icon: <IoLogoFacebook />,
+          href: '#',
+        },
+      ],
     },
     {
       avatar: <Avatar3Img />,
       name: 'Paula Pfeffer',
-      occupation: 'Manager of The New York Times',
-      message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+      occupation: 'Accountant',
+      social: [
+        {
+          icon: <IoLogoYoutube />,
+          href: '#',
+        },
+        {
+          icon: <IoLogoInstagram />,
+          href: '#',
+        },
+        // {
+        //   icon: <IoLogoGithub />,
+        //   href: '#',
+        // },
+        {
+          icon: <IoLogoFacebook />,
+          href: '#',
+        },
+      ],
     },
   ],
 };
 
 export const newsletter = {
-  title: 'Get more discount Off your order',
+  title: 'Get Start Your Own Business With Us',
   subtitle: 'Join our mailing list',
   placeholder: 'Your email address',
-  buttonText: 'Shop Now',
+  buttonText: 'Email Now',
 };
 
 export const footer = {
+  logo : {
+    logo:"MadinaPowerTech."
+  },
   social: [
     {
       icon: <IoLogoYoutube />,
@@ -428,14 +482,14 @@ export const footer = {
       icon: <IoLogoInstagram />,
       href: '#',
     },
-    {
-      icon: <IoLogoGithub />,
-      href: '#',
-    },
+    // {
+    //   icon: <IoLogoGithub />,
+    //   href: '#',
+    // },
     {
       icon: <IoLogoFacebook />,
       href: '#',
     },
   ],
-  copyright: 'FurniShop 2022 - All Rights Reserved.',
+  copyright: 'MadinaPowerTech. 2023 - All Rights Reserved.',
 };
