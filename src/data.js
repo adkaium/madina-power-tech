@@ -60,19 +60,19 @@ export const navigation = [
   
   {
     name: 'Home',
-    href: 'home',
+    href: '#home',
   },
   {
     name: 'About',
-    href: 'about',
+    href: '#about',
   },
   {
     name: 'Product',
-    href: 'product',
+    href: '#product',
   },
   {
     name: 'Contact',
-    href: 'contact',
+    href: '#contact',
   },
 ];
 

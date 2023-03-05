@@ -24,8 +24,8 @@ const Header = () => {
  })
 
   return (
-      <header className={`${bg ? 'bg-primary py-4 lg:py-4' : 'bg-none'} fixed left-0 w-full py-8 z-10 transition-all duration-200` } id='home'>
-        <div className="container mx-auto">
+      <header className={`${bg ? 'bg-primary py-4 lg:py-4' : 'bg-none'} fixed left-0 w-full py-8 z-10 transition-all duration-200`  } >
+        <div className="container mx-auto" >
           <div className='flex justify-between
            items-center'>
             {/* logo */}
